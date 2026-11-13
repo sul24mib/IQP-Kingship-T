@@ -166,7 +166,14 @@ h2{font-size:24px;margin:40px 0 10px} .after > ul{max-width:820px;padding-left:2
   L.control.zoom({ position: 'topright' }).addTo(map);
   L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',
     { maxZoom: 16, attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, FAO, NOAA, USGS' }).addTo(map);
-  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16 }).addTo(map);
+  var labels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16 }).addTo(map);
+  // While the map flies to a new zoom, the old town names are drawn hugely enlarged until the new ones load.
+  // Hide the names during the flight and show them again once the new ones are in (or after 1.2 s at the latest).
+  var flying = false, showLabels = null;
+  var labelsBack = function (ms) { clearTimeout(showLabels); showLabels = setTimeout(function () { labels.setOpacity(1); }, ms); };
+  map.on('zoomstart', function () { flying = true; clearTimeout(showLabels); labels.setOpacity(0); });
+  map.on('zoomend', function () { flying = false; labelsBack(1200); });
+  labels.on('load', function () { if (!flying) labelsBack(300); });
 
   // every stone in every state, drawn once and restyled at each step
   var bg = L.layerGroup().addTo(map), stateLayer = L.layerGroup(), layer = L.layerGroup().addTo(map), tags = L.layerGroup().addTo(map);
