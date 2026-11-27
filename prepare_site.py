@@ -69,7 +69,10 @@ def prepare(source):
             data = data[end+6:]
             ties, end = DECODER.raw_decode(data)
             files["records-data.js"] = export_rows("people", people) + export_rows("ties", ties)
-            files["records-table.js"] = 'import {people as P, ties as T} from "./records-data.js";\n' + before + data[end:].lstrip(";").strip() + "\n"
+            suffix = data[end:]
+            if not suffix.startswith(", root = "):
+                raise ValueError("Unrecognized spreadsheet initializer")
+            files["records-table.js"] = 'import {people as P, ties as T} from "./records-data.js";\n' + before + "var " + suffix[2:].strip() + "\n"
             parsed["ties"] = ties
             name = "records-table.js"
         else:
@@ -92,6 +95,7 @@ def prepare(source):
 <script type="module" src="embed-size.js"></script>
 """)
     html = html.replace(' · <a href="#kin-prut-family-names">Spreadsheet', ' · <a href="#kin-explore">Explore the ties</a> · <a href="#kin-prut-family-names">Spreadsheet')
+    html = html.replace('<p><a href="#kin-prut-family-names">See the project spreadsheet', '<p><a href="#kin-explore">Explore the family and community ties &darr;</a><br><a href="#kin-prut-family-names">See the project spreadsheet')
     files["index.html"] = html
     for name, content in files.items():
         (ROOT / name).write_text(content)

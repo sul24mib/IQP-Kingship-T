@@ -1,7 +1,7 @@
 import {people as P, ties as T} from "./records-data.js";
 
 (function () {
-  , root = document.getElementById('kin-prut-family-names');
+  var root = document.getElementById('kin-prut-family-names');
   var q = root.querySelector('input[type=search]'), sel = root.querySelector('select'), count = root.querySelector('.kn-count');
   var tabs = root.querySelectorAll('.kn-tabs button'), panes = root.querySelectorAll('.kn-wrap'), tab = 0;
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); };

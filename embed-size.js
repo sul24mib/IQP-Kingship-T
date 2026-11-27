@@ -4,7 +4,7 @@ let observer;
 function fit() {
   observer?.disconnect();
   const body = frame.contentDocument?.body;
-  if (!body) return;
+  if (!body?.querySelector("main")) return;
   const resize = () => { frame.height = Math.ceil(body.getBoundingClientRect().height) + 2; };
   observer = new ResizeObserver(resize);
   observer.observe(body);
