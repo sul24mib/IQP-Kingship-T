@@ -4,7 +4,7 @@ A map story by Sulaiman Moukheiber and Max Hunt (Worcester Polytechnic Institute
 
 [Open the map and story](https://sul24mib.github.io/IQP-Kingship-T/) · [Explore the family and community ties](https://sul24mib.github.io/IQP-Kingship-T/explorer.html)
 
-[![Live demo of the Prut family map, Cloe’s chart of family and community ties, and the source behind a selected connection.](kinship-explorer.gif)](https://sul24mib.github.io/IQP-Kingship-T/explorer.html)
+[![Live demo of the Prut family map, Cloe’s chart of family and community ties, and the source behind a selected connection.](images/kinship-explorer.gif)](https://sul24mib.github.io/IQP-Kingship-T/explorer.html)
 
 From **Meet the family** on the map, choose **Explore their connections**. The chart and historical records open over the story. **Back to the map** or **Escape** returns you to the same chapter. The recording starts on the map, then follows Cloe Prut in the explorer. Select **Community** in the bar chart to see Hagar and Pomp Dorus. Select a name in the diagram to read the evidence.
 
