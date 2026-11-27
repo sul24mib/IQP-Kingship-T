@@ -1,0 +1,24 @@
+html{background:#fff} body{margin:0;overflow-x:clip;color:#1f2328;font:18px/1.65 Georgia,"Times New Roman",serif}
+.page{max-width:1160px;margin:0 auto;padding:22px 24px 0}
+.after{max-width:1160px;margin:0 auto;padding:8px 24px 64px}
+h1{font-size:clamp(28px,3.4vw,40px);line-height:1.15;margin:0;letter-spacing:-.01em}
+.credit-logo{display:block;width:100%;max-width:300px;height:auto;margin:0 0 12px}
+.about-logo{display:block;width:320px;max-width:100%;height:auto;margin:18px 0 0}
+.credit-line{display:none;margin:10px 0 0;font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1f2328} .credit-line a{color:#1f3864}
+@media (max-width:900px){ .credit{display:none} .credit-line{display:block} }
+.cnote{max-width:820px;margin:10px 0 0;font:13.5px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;color:#5b6470}
+.eyebrow{margin:0 0 4px;font:700 12px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.09em;text-transform:uppercase;color:#b4441c}
+h2{font-size:24px;margin:40px 0 10px} .after > ul{max-width:820px;padding-left:22px} li{margin:6px 0}
+.after a{color:#1f3864}
+.note{font-size:14px;color:#5b6470;font-style:italic;margin-top:40px}
+.dek{max-width:820px;margin:8px 0 0;font-size:18px;line-height:1.5;color:#3d4550}
+.head{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:16px 40px;align-items:start;padding-bottom:14px}
+.credit{margin:4px 0 0;padding:12px 16px;border-left:4px solid #1f3864;background:#f4f6f9;border-radius:0 10px 10px 0;font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1f2328}
+.credit .credit-head{margin:0 0 6px;font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#5b6470}
+.credit p{margin:0 0 6px} .credit p:last-child{margin:0} .credit a{color:#1f3864}
+@media (max-width:900px){ .head{grid-template-columns:1fr} }
+.draft{margin:0;padding:8px 16px;background:#fff4d6;border-bottom:1px solid #e8d9a8;color:#5b4a00;text-align:center;font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+.after .txt{max-width:820px}
+.after > ol{max-width:820px;padding-left:22px}
+.pv{font:12px/1.4 system-ui,sans-serif;color:#8a929b;margin-top:24px}
+@media (max-width:820px){ body{font-size:17px} .page{padding:28px 16px 0} .after{padding:8px 16px 48px} }

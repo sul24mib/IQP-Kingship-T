@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Explore the ties · The Prut family of Hadley</title>
+  <link rel="stylesheet" href="explorer.css">
+  <script type="module" src="explorer.js"></script>
+</head>
+<body>
+<main>
+  <header>
+    <p class="overline">The Prut family of Hadley</p>
+    <h1>Explore the ties</h1>
+    <p>Choose a person to trace the family and community ties in the project records. Select a connection to read its evidence.</p>
+  </header>
+  <noscript><p>The interactive controls require JavaScript. <a href="exploring-kinship-ties-data.xlsx">Download the project spreadsheet</a> to read the records.</p></noscript>
+  <div class="workspace" hidden>
+    <div class="choices">
+      <label for="person">Whose ties would you like to see?</label>
+      <select id="person"></select>
+      <fieldset><legend>Show connections</legend>
+        <div class="filters">
+          <button type="button" data-kind="all" aria-pressed="true">All</button>
+          <button type="button" data-kind="fam" aria-pressed="false">Family</button>
+          <button type="button" data-kind="com" aria-pressed="false">Community</button>
+        </div>
+      </fieldset>
+    </div>
+    <div class="charts">
+      <section class="summary"><h2>Ties by type</h2><p id="counts"></p><div id="bars"></div></section>
+      <section class="network"><h2 id="network-title">Connections</h2><p id="network-status" aria-live="polite"></p><div id="diagram"></div></section>
+    </div>
+    <section class="evidence">
+      <h2>From the records</h2>
+      <label for="connection">Read a connection</label><select id="connection"></select>
+      <div id="record" aria-live="polite"></div>
+    </section>
+  </div>
+</main>
+</body>
+</html>

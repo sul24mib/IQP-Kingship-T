@@ -1,0 +1,153 @@
+#kin-prut-family{container:kin / inline-size;position:relative;margin:28px 0 0;color:#1f2328;font:16px/1.6 Georgia,"Times New Roman",serif}
+#kin-prut-family .kin-stage{position:sticky;top:var(--kin-top,0px);height:58vh;height:58svh;z-index:3;background:#eceef0;display:flex;flex-direction:column}
+#kin-prut-family .kin-mapbox{position:relative;flex:1 1 auto;min-height:0;background:#eceef0}
+#kin-prut-family .kin-steps{position:relative;z-index:2;list-style:none;margin:0;padding:14px 0 40vh}
+#kin-prut-family .kin-card{box-sizing:border-box;margin:0 max(12px,calc((100% - 680px) / 2)) 16px;padding:18px 16px 16px;background:#fff;border-radius:14px;box-shadow:0 0 0 1px #e2e7ee;scroll-margin-top:54vh}
+#kin-prut-family .kin-card.on{box-shadow:0 0 0 2px #1f3864}
+#kin-prut-family .kin-kicker{margin:0 0 6px;font:700 12px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.09em;text-transform:uppercase;color:#b4441c}
+#kin-prut-family .kin-card h2{margin:0 0 10px;font-size:22px;line-height:1.2;color:#1f2328}
+#kin-prut-family .kin-card p{margin:0 0 12px}
+#kin-prut-family .kin-card h4{margin:20px 0 9px;font:700 12px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#5b6470}
+#kin-prut-family .kin-card a{color:#1f3864}
+#kin-prut-family .kin-small,#kin-prut-family .kin-meta{font:13px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;color:#5b6470}
+#kin-prut-family .kin-c{font-weight:600;margin-right:4px}
+#kin-prut-family .kin-documented{color:#2e7d32} #kin-prut-family .kin-probable{color:#1f5f99} #kin-prut-family .kin-speculative{color:#4b5360}
+#kin-prut-family .kin-cue{margin:16px 0 0 !important;font:600 14px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1f3864}
+#kin-prut-family .kin-q{padding:10px 12px;border-left:3px solid #b4441c;background:#fbf4f1;border-radius:0 8px 8px 0}
+#kin-prut-family .kin-tie{padding:8px 12px;border-left:3px solid #2e7d32;background:#eef6ef;border-radius:0 8px 8px 0;font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1f2328}
+#kin-prut-family .kin-tie b{display:block;margin-bottom:2px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#2e7d32}
+#kin-prut-family .kin-answers{margin:4px 0 12px}
+#kin-prut-family .kin-answers dt{margin:12px 0 2px;font:700 12px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#1f3864}
+#kin-prut-family .kin-answers dd{margin:0}
+#kin-prut-family .kin-bars{margin:4px 0 12px;font:13px/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1f2328}
+#kin-prut-family .kin-bar{display:grid;grid-template-columns:104px minmax(0,1fr) 30px;align-items:center;gap:8px;margin:4px 0}
+#kin-prut-family .kin-bar i{display:block;height:9px;border-radius:5px;background:#1f3864;min-width:3px}
+#kin-prut-family .kin-bar b{text-align:right;font-weight:600;color:#1f3864}
+#kin-prut-family .kin-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:14px 0 0}
+#kin-prut-family .kin-tile{background:#f4f6f9;border-radius:10px;padding:9px 11px 8px}
+#kin-prut-family .kin-tile b{display:block;font:700 24px/1.1 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1f3864}
+#kin-prut-family .kin-tile span{display:block;margin-top:3px;font:12px/1.35 system-ui,-apple-system,"Segoe UI",sans-serif;color:#5b6470}
+#kin-prut-family .kin-tree{text-align:center}
+#kin-prut-family .kin-row{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px}
+#kin-prut-family .kin-and{font:600 15px system-ui,sans-serif;color:#8a929b}
+#kin-prut-family .kin-down{width:2px;height:12px;margin:6px auto 0;background:#c4ccd6}
+#kin-prut-family .kin-kidcap{margin:0 0 7px !important;font:12px/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;color:#5b6470}
+#kin-prut-family .kin-kids{border-top:2px solid #c4ccd6;padding-top:10px}
+#kin-prut-family .kin-spell{margin:10px 0 0 !important;font:12px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;color:#5b6470;text-align:left}
+#kin-prut-family .kin-chip{display:inline-flex;align-items:center;gap:6px;margin:0;padding:4px 10px 4px 8px;border:1px solid #d5dbe3;border-radius:999px;background:#fff;color:#1f2328;font:500 13px/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer}
+#kin-prut-family .kin-chip:hover{border-color:#1f3864}
+#kin-prut-family .kin-chip:focus-visible,#kin-prut-family .kin-rail button:focus-visible,#kin-prut-family .kin-back:focus-visible,#kin-prut-family .kin-tagbtn:focus-visible{outline:2px solid #1f3864;outline-offset:2px}
+#kin-prut-family .kin-chip small{font-size:11px;font-weight:700;color:#1f3864}
+#kin-prut-family .kin-comm{list-style:none;margin:0;padding:0}
+#kin-prut-family .kin-comm li{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;margin:0 0 7px;font:13px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;color:#5b6470}
+#kin-prut-family .kin-figure{margin:4px 0 12px}
+#kin-prut-family .kin-figure img{display:block;width:100%;height:auto;max-height:340px;object-fit:cover;object-position:top;border-radius:8px;box-shadow:0 0 0 1px #e2e7ee}
+#kin-prut-family .kin-figure figcaption{margin-top:6px;font:13px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1f2328}
+#kin-prut-family .kin-figure figcaption span{display:block;color:#5b6470;font-size:12px}
+#kin-prut-family .kin-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:4px 0 12px}
+#kin-prut-family .kin-photos .kin-figure{margin:0}
+#kin-prut-family .kin-photos img{aspect-ratio:1/1;max-height:none}
+#kin-prut-family .kin-todo{display:flex;align-items:center;justify-content:center;aspect-ratio:1/1;padding:8px;border:2px dashed #c4ccd6;border-radius:8px;text-align:center;font:12px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;color:#5b6470}
+#kin-prut-family .kin-todo.kin-wide{aspect-ratio:auto;min-height:64px;margin:4px 0 12px}
+#kin-prut-family .kin-back{margin-top:14px;padding:7px 14px;border:1px solid #c4ccd6;border-radius:999px;background:#fff;color:#1f3864;font:600 14px system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer}
+#kin-prut-family .kin-back:hover{border-color:#1f3864}
+#kin-prut-family .kin-rail{display:none;position:absolute;right:14px;top:50%;transform:translateY(-50%);z-index:1000;flex-direction:column;align-items:flex-end}
+#kin-prut-family .kin-rail p{margin:10px 0 5px;padding:2px 7px;border-radius:4px;background:rgba(255,255,255,.9);font:700 11px/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#4b5360;box-shadow:0 1px 2px rgba(0,0,0,.12)}
+#kin-prut-family .kin-rail p:first-child{margin-top:0}
+#kin-prut-family .kin-rail p.on{background:#b4441c;color:#fff}
+#kin-prut-family .kin-rail ol{display:flex;flex-direction:column;align-items:flex-end;gap:5px;margin:0;padding:0;list-style:none}
+#kin-prut-family .kin-rail li{margin:0}
+#kin-prut-family .kin-rail button{display:flex;align-items:center;justify-content:center;width:28px;height:28px;padding:0;border:1px solid #c4ccd6;border-radius:50%;background:#fff;color:#1f3864;font:600 12px system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.15)}
+#kin-prut-family .kin-rail button:hover{border-color:#1f3864}
+#kin-prut-family .kin-rail button.on{background:#1f3864;border-color:#1f3864;color:#fff}
+#kin-prut-family .kin-rail svg{width:16px;height:16px;fill:currentColor}
+#kin-prut-family .kin-rail li{position:relative}
+#kin-prut-family .kin-rail button:hover:after,#kin-prut-family .kin-rail button:focus-visible:after,#kin-prut-family .kin-rail button.on:after{content:attr(data-label);position:absolute;right:36px;top:50%;transform:translateY(-50%);max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:3px 9px;border-radius:5px;background:#1f3864;color:#fff;font:600 12px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;box-shadow:0 1px 3px rgba(0,0,0,.25);pointer-events:none}
+#kin-prut-family .kin-rail button.on:not(:hover):not(:focus-visible):after{background:rgba(255,255,255,.95);color:#1f3864}
+#kin-prut-family .kin-legend{position:relative;z-index:1000;display:flex;flex-wrap:wrap;gap:1px 12px;padding:5px 12px;background:#fff;box-shadow:0 -1px 0 #d5dbe3;font:13px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:#5b6470}
+#kin-prut-family .kin-legend i{display:inline-block;margin-right:6px}
+#kin-prut-family .kin-legend .kin-cap{display:none}
+#kin-prut-family .kin-dot{width:10px;height:10px;border-radius:50%;background:#1f3864;box-shadow:0 0 0 2px #fff,0 0 0 3px #aab2bb;vertical-align:-1px}
+#kin-prut-family .kin-dot.kin-s{background:#c9a227;box-shadow:0 0 0 2px #fff,0 0 0 3px #6b5200}
+#kin-prut-family .kin-dot.kin-rel{background:#7c4dff}
+#kin-prut-family .kin-dot.kin-other{background:#8a939e;opacity:.6}
+#kin-prut-family .kin-line{width:18px;border-top:3px solid;vertical-align:3px}
+#kin-prut-family .kin-l-doc{border-color:#2e7d32} #kin-prut-family .kin-l-prob{border-color:#1f6fb2;border-top-style:dashed} #kin-prut-family .kin-l-spec{border-color:#7a828c;border-top-style:dotted}
+#kin-prut-family .kin-l-same{border-color:#6b7280;border-top-style:dotted}
+#kin-prut-family .kin-tie.kin-tie-probable{border-left-color:#1f6fb2;background:#eef4fb} #kin-prut-family .kin-tie.kin-tie-probable b{color:#1f5f99}
+#kin-prut-family .kin-tie.kin-tie-speculative{border-left-color:#7a828c;background:#f2f3f5} #kin-prut-family .kin-tie.kin-tie-speculative b{color:#4b5360}
+#kin-prut-family .kin-photos.kin-one img{aspect-ratio:3/2}
+#kin-prut-family .kin-l-move{border-color:#00897b;border-top-style:dashed}
+#kin-prut-family .kin-sq{width:9px;height:9px;background:#3d4550;transform:rotate(45deg);vertical-align:0}
+#kin-prut-family .kin-cap{flex-basis:100%;font-size:12px}
+#kin-prut-family .kin-more{flex-basis:100%;font-weight:600}
+#kin-prut-family .kin-state{display:inline-block;transform:translate(-50%,-50%);padding:1px 7px;border-radius:4px;background:rgba(255,255,255,.88);box-shadow:0 1px 3px rgba(0,0,0,.2);white-space:nowrap;font:600 12px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1f3864}
+#kin-prut-family .kin-state b{font-weight:800}
+#kin-prut-family .kin-abol{display:inline-block;transform:translate(-50%,-50%);padding:4px 9px 5px;border-radius:6px;background:rgba(255,255,255,.94);box-shadow:0 1px 4px rgba(0,0,0,.22);white-space:nowrap;text-align:center;font:12.5px/1.35 system-ui,-apple-system,"Segoe UI",sans-serif;color:#3d4550}
+#kin-prut-family .kin-abol b{display:block;font-size:13.5px;color:#1f3864}
+#kin-prut-family .kin-abol i{font-style:normal} #kin-prut-family .kin-abol b,#kin-prut-family .kin-abol i{display:none} #kin-prut-family .kin-abol em{font-style:normal;font-weight:700;color:#1f3864;white-space:nowrap}
+#kin-prut-family .kin-abol{padding:2px 7px;font-size:11.5px}
+#kin-prut-family .kin-abol-l{transform:translate(-88%,-50%)} #kin-prut-family .kin-abol-r{transform:translate(-12%,-50%)}
+@container kin (min-width: 960px){
+#kin-prut-family .kin-abol{padding:4px 9px 5px;font-size:12.5px} #kin-prut-family .kin-abol b{display:block} #kin-prut-family .kin-abol i{display:inline} #kin-prut-family .kin-abol em{display:none}
+#kin-prut-family .kin-abol-l{transform:translate(calc(-100% + 6px),-50%);text-align:right} #kin-prut-family .kin-abol-r{transform:translate(-6px,-50%);text-align:left}
+}
+#kin-prut-family .kin-place{width:11px;height:11px;background:#3d4550;transform:rotate(45deg);box-shadow:0 0 0 2px #fff}
+#kin-prut-family .kin-arrow{width:0;height:0;border-left:14px solid #00897b;border-top:8px solid transparent;border-bottom:8px solid transparent}
+#kin-prut-family .leaflet-tooltip.kin-name{background:#fff;border:0;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.3);padding:2px 7px;font:600 12px/1.35 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1f2328}
+#kin-prut-family .leaflet-tooltip.kin-name:before{display:none}
+#kin-prut-family .leaflet-tooltip.kin-callout{background:#b4441c;color:#fff;font-size:13px;padding:4px 10px}
+#kin-prut-family .leaflet-tooltip.kin-movetag{background:#00897b;color:#fff}
+#kin-prut-family .leaflet-tooltip.kin-placetag{font-weight:400} #kin-prut-family .leaflet-tooltip.kin-placetag b{font-weight:700}
+#kin-prut-family .leaflet-tooltip.kin-list{padding:5px 4px 4px;pointer-events:auto}
+#kin-prut-family .kin-tag b{display:block;max-width:min(240px,42vw);white-space:normal;padding:0 6px 2px;font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:#5b6470}
+#kin-prut-family .kin-tagbtn{display:block;width:100%;margin:0;padding:1px 6px;border:0;border-radius:3px;background:none;text-align:left;font:600 12px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1f2328;cursor:pointer}
+#kin-prut-family .kin-tagbtn:hover{background:#eef1f6;color:#1f3864}
+#kin-prut-family .kin-tagbtn small{font-weight:700;color:#1f3864}
+#kin-prut-family .kin-tagmore{display:block;padding:1px 6px;font-size:11px;color:#5b6470}
+#kin-prut-family .kin-link{display:block;margin:3px 0 0;padding:0;border:0;background:none;color:#1f3864;text-decoration:underline;font:13px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer;text-align:left}
+#kin-prut-family .leaflet-popup-content{font:13px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;margin:12px 14px}
+#kin-prut-family .kin-stop{min-width:22px;height:22px;padding:0 5px;border-radius:11px;background:#00897b;color:#fff;font:600 12px/22px system-ui,sans-serif;text-align:center;white-space:nowrap;box-shadow:0 0 0 2px #fff}
+#kin-prut-family .kin-stop.kin-goal{background:#fff;color:#00897b;box-shadow:0 0 0 2px #00897b}
+@container kin (min-width: 960px){
+#kin-prut-family .kin-stage{display:block;height:calc(100vh - var(--kin-top,0px));height:calc(100svh - var(--kin-top,0px));z-index:1}
+#kin-prut-family .kin-mapbox{position:absolute;top:0;right:0;bottom:0;left:0}
+#kin-prut-family .kin-steps{margin-top:-100vh;margin-top:-100svh;padding:20vh 0 50vh;pointer-events:none}
+#kin-prut-family .kin-card{pointer-events:auto;width:410px;margin:0 0 50vh 40px;padding:24px 26px 22px;font-size:17px;box-shadow:0 6px 28px rgba(15,23,42,.18),0 0 0 1px rgba(15,23,42,.05);scroll-margin-top:12vh}
+#kin-prut-family .kin-card.on{box-shadow:0 6px 28px rgba(15,23,42,.18),0 0 0 1px rgba(15,23,42,.05)}
+#kin-prut-family .kin-card:last-child{margin-bottom:0}
+#kin-prut-family .kin-card h2{font-size:26px}
+#kin-prut-family .kin-rail{display:flex}
+#kin-prut-family .kin-legend{position:absolute;left:auto;right:58px;bottom:26px;border-radius:8px;background:rgba(255,255,255,.95);box-shadow:0 1px 4px rgba(0,0,0,.15);max-width:min(560px,calc(100% - 560px));gap:3px 14px;padding:8px 12px;font-size:13.5px}
+#kin-prut-family .kin-legend .kin-cap{display:block}
+}
+@media (max-height:640px){ #kin-prut-family .kin-rail button{width:22px;height:22px} #kin-prut-family .kin-rail ol{gap:3px} #kin-prut-family .kin-rail p{margin:5px 0 3px} }
+#kin-prut-family .kin-dot.kin-unk{background:#8a939e}
+#kin-prut-family .kin-ringi{width:11px;height:11px;border:2px dotted #5b6470;border-radius:50%;vertical-align:-2px}
+#kin-prut-family .kin-progress{position:absolute;top:0;left:0;right:0;height:4px;z-index:1001;background:rgba(31,56,100,.12)}
+#kin-prut-family .kin-progress i{display:block;height:100%;width:0;background:#b4441c;transition:width .3s}
+#kin-prut-family .kin-when{position:absolute;top:12px;left:10px;z-index:1000;display:none;align-items:center;gap:6px;margin:0;padding:3px 11px 3px 8px;border-radius:999px;background:#1f3864;color:#fff;font:700 13px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+#kin-prut-family .kin-when svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2}
+#kin-prut-family .kin-notice{position:absolute;left:10px;right:10px;top:46px;z-index:1000;margin:0;padding:6px 10px;border-radius:6px;background:#fff8e1;color:#5b4a00;font:13px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif}
+#kin-prut-family .kin-pan{margin-top:6px !important;padding:5px 10px;border:2px solid rgba(0,0,0,.2);border-radius:6px;background:#fff;color:#1f3864;font:600 12px/1.2 system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer}
+#kin-prut-family .kin-pan.on{background:#1f3864;color:#fff}
+#kin-prut-family .kin-legend label{display:inline-flex;align-items:center;cursor:pointer;user-select:none}
+#kin-prut-family .kin-legend input{flex:none;width:13px;height:13px;margin:0 6px 0 0;accent-color:#1f3864;cursor:pointer}
+#kin-prut-family .kin-legend .kin-off{color:#5b6470} #kin-prut-family .kin-legend .kin-off i{opacity:.35;filter:grayscale(1)}
+#kin-prut-family .kin-legend .kin-keyhead{flex-basis:100%;display:flex;align-items:center;gap:6px;margin:0;padding:2px 0;border:0;background:none;text-align:left;font:700 12px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.07em;text-transform:uppercase;color:#1f3864;cursor:pointer}
+#kin-prut-family .kin-legend .kin-keyhead:before{content:"\25BE";font-size:12px}
+#kin-prut-family .kin-legend.kin-shut .kin-keyhead:before{content:"\25B8"}
+#kin-prut-family .kin-legend.kin-shut > :not(.kin-keyhead){display:none !important}
+#kin-prut-family .kin-legend.kin-shut .kin-keyhead span{display:none}
+#kin-prut-family .kin-legend .kin-keyhead span{font-weight:400;letter-spacing:0;text-transform:none;color:#5b6470}
+#kin-prut-family .kin-reset{padding:0 9px;border:1px solid #c4ccd6;border-radius:999px;background:#fff;color:#1f3864;font:600 11.5px/1.7 system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer}
+#kin-prut-family .kin-reset:hover{border-color:#1f3864}
+@container kin (min-width: 960px){ #kin-prut-family .kin-when{left:40px;top:16px;font-size:15px} }
+@media (max-height:640px){ #kin-prut-family .kin-legend .kin-cap{display:none !important} }
+@media print{
+#kin-prut-family .kin-stage{position:relative;top:0;height:430px;break-inside:avoid}
+#kin-prut-family .kin-rail,#kin-prut-family .leaflet-control-zoom,#kin-prut-family .kin-pan,#kin-prut-family .kin-cue,#kin-prut-family .kin-back,#kin-prut-family .kin-progress{display:none !important}
+#kin-prut-family,#kin-prut-family *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+#kin-prut-family .kin-steps{margin-top:0 !important;padding:12px 0 !important}
+#kin-prut-family .kin-card{break-inside:avoid;box-shadow:none !important;border:1px solid #c4ccd6}
+}
