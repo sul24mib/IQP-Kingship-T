@@ -1,9 +1,9 @@
 import {colors} from "./chart-libraries.js";
 
-export function drawDiagram(person, neighbors, active, choose) {
+export function drawDiagram(host, connection, person, neighbors, active, choose) {
   const d3 = window.d3;
   if (!d3) return;
-  const container = d3.select("#diagram");
+  const container = d3.select(host);
   container.selectAll("*").remove();
   if (!neighbors.length) return;
   const w = Math.max(260, Math.min(600, container.node().clientWidth));
@@ -30,7 +30,7 @@ export function drawDiagram(person, neighbors, active, choose) {
       if (event.key !== "Enter" && event.key !== " ") return;
       event.preventDefault();
       choose(d.id);
-      document.querySelector("#connection").focus();
+      connection.focus();
     });
   groups.append("rect").attr("x", -8).attr("y", -15).attr("width", w - end + 8).attr("height", 30)
     .attr("rx", 4).attr("fill", d => d.id === active ? "#efe9dd" : "transparent");

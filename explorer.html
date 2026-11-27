@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Explore the ties · The Prut family of Hadley</title>
-  <link rel="stylesheet" href="explorer.css">
-  <script type="module" src="explorer.js"></script>
+  <link rel="stylesheet" href="styles/explorer.css">
+  <script type="module" src="js/explorer.js"></script>
 </head>
 <body>
-<main>
+<main id="explorer-ui">
   <header>
     <p class="overline">The Prut family of Hadley</p>
-    <h1>Explore the ties</h1>
-    <p>Choose a person to trace the family and community ties in the project records. Select a connection to read its evidence.</p>
+    <h1>Explore their connections</h1>
+    <p>Choose a person, then select a name in the diagram to read the record that connects them.</p>
   </header>
   <noscript><p>The interactive controls require JavaScript. <a href="exploring-kinship-ties-data.xlsx">Download the project spreadsheet</a> to read the records.</p></noscript>
   <div class="workspace" hidden>
@@ -27,15 +27,15 @@
         </div>
       </fieldset>
     </div>
+    <section class="summary"><h2>Ties by type</h2><p id="counts"></p><div id="bars"></div></section>
     <div class="charts">
-      <section class="summary"><h2>Ties by type</h2><p id="counts"></p><div id="bars"></div></section>
       <section class="network"><h2 id="network-title">Connections</h2><p id="network-status" aria-live="polite"></p><div id="diagram"></div></section>
-    </div>
     <section class="evidence">
       <h2>From the records</h2>
       <label for="connection">Read a connection</label><select id="connection"></select>
       <div id="record" aria-live="polite"></div>
     </section>
+    </div>
   </div>
 </main>
 </body>

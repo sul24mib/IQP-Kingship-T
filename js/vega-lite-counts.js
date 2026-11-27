@@ -2,13 +2,13 @@ import {colors} from "./chart-libraries.js";
 
 const labels = {fam: "Family", com: "Community"};
 let view;
-export function drawCounts(counts, filter, onFilter) {
+export function drawCounts(container, counts, filter, onFilter) {
   if (!window.vegaLite || !window.vega) return;
   const values = Object.entries(counts).map(([key, count]) => ({
     key, category: labels[key], count, color: colors[key], opacity: filter === "all" || filter === key ? 1 : .35
   }));
   const spec = {
-    width: 106, height: 50, padding: 3, background: null,
+    width: 155, height: 52, padding: 3, background: null,
     data: {values},
     mark: {type: "bar", cornerRadiusEnd: 3, cursor: "pointer"},
     encoding: {
@@ -21,7 +21,6 @@ export function drawCounts(counts, filter, onFilter) {
     config: {view: {stroke: null}}
   };
   view?.finalize();
-  const container = document.querySelector("#bars");
   container.replaceChildren();
   view = new window.vega.View(window.vega.parse(window.vegaLite.compile(spec).spec), {renderer: "svg", container});
   view.addEventListener("click", (_, item) => {
